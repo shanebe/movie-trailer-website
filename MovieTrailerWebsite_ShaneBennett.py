@@ -1,6 +1,7 @@
 import media
 import new_fresh_tomatoes
 
+#Define Movie objects
 interstellar = media.Movie("Interstellar",
                            "With our time on Earth coming to an end, a team of explorers undertakes the most important mission in human history; traveling beyond this galaxy to discover whether mankind has a future among the stars.",
                            "http://images.redbox.com/Images/EPC/Detail370/7739.jpg",
@@ -30,7 +31,12 @@ dumb_and_dumber_to = media.Movie("Dumb & Dumber to",
                                  2)
 
 movies = [interstellar,wild_card,the_imitation_game,into_the_woods,dumb_and_dumber_to]
+#Put movie objects into array
+
 new_fresh_tomatoes.open_movies_page(movies)
+#Call class function open_movies_page with array of movies
+
 print(media.Movie.__doc__)
 print(media.Movie.__name__)
 print(media.Movie.__module__)
+#Print out built in class functions just because
