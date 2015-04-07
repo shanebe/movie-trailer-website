@@ -6,7 +6,8 @@ import media
 # Styles and scripting for the page
 main_page_head = '''
 <head>
-    <meta cShane Bennett's Top Movies</title>
+    <meta charset="utf-8">
+    <title>Shane Bennett's Top Movies</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
