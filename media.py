@@ -6,7 +6,7 @@ class Movie():
         Usage: Movie('Movie Title','Storyline','Poster Image URL', 'Youtube Trailer URL', 'Rating 0-3 (G,PG,PG13,R)' """
 
     VALID_RATINGS = ["G","PG","PG-13","R"]
-    #Constant Class Variable "VALID_RATINGS, capitalized as Class Variable
+    #Constant Class Variable "VALID_RATINGS", capitalized as Class Variable
     
     def __init__(self,movie_title,movie_storyline,poster_image,trailer_youtube,movie_rating):
         self.title = movie_title
