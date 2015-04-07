@@ -20,7 +20,7 @@ the_imitation_game = media.Movie("The Imitation Game",
                                  "http://images.redbox.com/Images/EPC/Kiosk/8130.jpg",
                                  "https://www.youtube.com/watch?v=S5CjKEFb-sM",
                                  2)
-$Fourth film Into the Woods
+#Fourth film Into the Woods
 into_the_woods = media.Movie("Into The Woods",
                              "This all-star cast with Meryl Streep, Anna Kendrick, Emily Blunt, and Chris Pine tell the magical story about a couple desperate to have a child who embark on a perilous journey into the Woods to lift an evil witch's curse. On their journey they encounter Jack, Red Riding Hood, and Cinderella who are on their own quests to make their wishes come true. ",
                              "http://images.redbox.com/Images/EPC/Kiosk/7886.jpg",
